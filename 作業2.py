@@ -5,7 +5,7 @@ Created on Fri Mar  5 00:25:04 2021
 @author: fb-5231
 """
 
- #第二題用range印出 2,4,6,8
+ #第二題用range印出 (2,4,6,8)
 a=0
 b=0
 c=0
