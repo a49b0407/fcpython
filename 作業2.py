@@ -11,12 +11,13 @@ b=0
 c=0
 d=0
 for i in range(1,9):
-     if i/2==0:
-      i=a
-     if i/4==0:
-      i=b
-     if i/6==0:
-      i=c
-     if i/8==0:
-      i=d   
+     if i/2==1:
+      i==a
+     elif i/4==1:
+      i==b
+     elif i/6==1:
+      i==c
+     elif i/8==1:
+      i==d   
       print(a,b,c,d)
+   
