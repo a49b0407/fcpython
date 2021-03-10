@@ -14,5 +14,5 @@ for i in range(1,9):
                 if b/6==1:
                   for c in range(1,9): 
                       if c/8==1:
-                       print(i,a,b,c)
+                       print('(',i,',',a,',',b,',',c,')')
    
