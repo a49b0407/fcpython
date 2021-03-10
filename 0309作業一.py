@@ -17,5 +17,5 @@ Created on Wed Mar 10 11:00:47 2021
 #1
 for i in range(10,0,-1):
     for x in range(1,i):
-    #    print(x,end='')
-    print('*')
+        print(x,end='')
+    print()
