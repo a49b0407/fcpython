@@ -8,7 +8,7 @@ num=[30,60,1,20]
 total=sum(num)
 ma=max(num)
 mc=min(num)
-print(ma,mc)
+print(ma,mc,total)
 
 
 
