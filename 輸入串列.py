@@ -13,5 +13,6 @@ while True :
 print(student)
 #input 輸入至串列
 #True t要大寫
-
-
+student.insert(1,'john')
+print(student)
+#中間插入john
