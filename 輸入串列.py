@@ -12,5 +12,6 @@ while True :
     student.append(st)
 print(student)
 #input 輸入至串列
+#True t要大寫
 
 
