@@ -10,5 +10,5 @@ ma=max(num)
 mc=min(num)
 print(ma,mc,total)
 
-s=max(num[2:6])
+s=max(num[2:6])#求2-5中最大
 print(s)
