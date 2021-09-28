@@ -4,7 +4,7 @@ Created on Thu Sep 23 21:51:55 2021
 
 @author: USER
 """
-
+#下拉
 from selenium import webdriver
 
 import time
