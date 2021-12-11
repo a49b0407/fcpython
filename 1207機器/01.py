@@ -8,6 +8,7 @@ import cv2
 img=cv2.imread('lena.png')
 t,thr=cv2.threshold(img,127,255,cv2.THRESH_BINARY)
 #threshold 二質化已127為中間點，THRESH_BINARY是大於127的質為255小於為0
+#https://zh-tw.rakko.tools/tools/30/   2進制色票查詢
 print(img)
 print(thr)
 cv2.imshow('img',img)
