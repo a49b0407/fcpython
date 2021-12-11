@@ -16,7 +16,7 @@ athGaus=cv2.adaptiveThreshold(img,255,
                     cv2.THRESH_BINARY,5,3)
 #自適二級值ADAPTIVE_THRESH_MEAN是平均，THRESH_BINARY,5,3市矩形區域
 #https://www.twblogs.net/a/5b8c1ba02b717718833082e1
-#MEAN可換成GAUSSIAN是高濕模糊
+#MEAN可換成GAUSSIAN是高斯模糊
 cv2.imshow('img',thr)
 cv2.imshow('Mean',athMean)
 cv2.imshow('Gaus',athGaus)
