@@ -7,6 +7,7 @@ Created on Thu Dec  2 20:12:13 2021
 import cv2
 import numpy as np
 img=np.zeros((10,10),dtype=np.uint8)
+#https://www.delftstack.com/zh-tw/tutorial/python-numpy/numpy-datatype-and-conversion/
 #print(img)
 img[3,2]=255
 img[5,7]=255
