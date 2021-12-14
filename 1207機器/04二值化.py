@@ -22,7 +22,7 @@ cv2.imshow('Mean',athMean)
 cv2.imshow('Gaus',athGaus)
 cv2.waitKey()#等待按任何鍵
 cv2.destroyAllWindows()
-
+#https://shengyu7697.github.io/python-opencv-threshold/
 
 
 
