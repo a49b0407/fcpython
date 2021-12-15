@@ -15,6 +15,7 @@ from tensorflow.keras.layers import Dense,Activation
 from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.datasets import mnist
 #https://ithelp.ithome.com.tw/articles/10191725
+#https://medium.com/chiukevin0321/tensorflow%E8%88%87keras%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9-621352fc7150
 (x_train,y_train)<(x_test,y_test)=mnist.load_data()
 len(x_train)
 len(x_test)
