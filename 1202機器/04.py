@@ -4,7 +4,7 @@ Created on Thu Dec  2 20:52:56 2021
 
 @author: USER
 """
-
+#https://numpy.org/doc/stable/reference/generated/numpy.zeros.html
 import cv2
 import numpy as np
 blue=np.zeros((300,300,3),dtype=np.uint8)
