@@ -33,6 +33,7 @@ track_window=None
 start_flag=True
 
 cv2.namedWindow('image',cv2.WINDOW_AUTOSIZE)
+#https://www.itread01.com/content/1544736979.html
 cv2.setMouseCallback('image',onMouseCliked)
 while True:
     _,frame=cap.read()#開始框
@@ -50,9 +51,10 @@ while True:
                     (selection[2],selection[3]),
                     (0,0,255),1)
             cv2.imshow('image',img_first)
-            if cv2.waitKey(5)==13:
+            
+            if cv2.waitKey(5) == 13:
                 break
-        start_flog=False
+        start_flag=False
         tracker.start_track(frame,dlib.rectangle(track_window[0],
                                          track_window[1],
                                          track_window[2],
@@ -62,14 +64,14 @@ while True:
         box = tracker.get_position()
         cv2.rectangle(frame,(int(box.left()),
                              int(box.top())),
-                            (int(box.righe()),
+                            (int(box.right()),
                              int(box.bottom())),(0,255,255),1)
         
-        cv2.imshow('image',frame)
-        if cv2.waitKey(5)==27:
-            break            
+    cv2.imshow('image',frame)
+    if cv2.waitKey(5)==27:
+        break            
 cap.release()
-cv2.destroyAllWindows()       
+cv2.destroyAllWindows()     
         
         
         
